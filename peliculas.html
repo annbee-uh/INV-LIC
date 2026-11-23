@@ -4,37 +4,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stylen.css">
+    <title>Netflix</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
-    <title>Netflix</title>
+
+    <link rel="stylesheet" href="css/stylen.css">  
+    <link rel="stylesheet" href="css/pc.css">       
+    <link rel="stylesheet" href="css/movil.css">   
 </head>
 
 <body>
-    <!--Encabezado-->
-    <header class="encabezado">
-        <nav class="menu">
+    <!-- ################################################################################
+         VERSIÓN PC / TABLET
+         Se ve desde 768px (md) hacia arriba:
+           d-none     = oculto en el celular
+           d-md-block = visible desde tablet
+         Estilos en: css/pc.css
+         ################################################################################ -->
+    <div id="version-pc" class="d-none d-md-block">
+
+        <!-- ===== ENCABEZADO PC: logo a la izquierda, avatar a la derecha ===== -->
+        <header class="encabezado">
+            <nav class="menu">
                 <img class="logo" src="img/NetflixLogo.jpg" width="100" alt="Logo de Netflix">
+            </nav>
+            <img class="profile" src="img_profiles/profile1.png" width="50" alt="Profile image">
+        </header>
+
+        <main>
+
+            <section id="pc-banner">
+
+            </section>
+
+        </main>
+
+        <!-- ===== PIE DE PÁGINA PC ===== -->
+        <footer class="pie">
+
+        </footer>
+
+    </div>
+    <!-- ############################ FIN VERSIÓN PC / TABLET ############################ -->
+
+
+    <!-- ################################################################################
+         VERSIÓN CELULAR
+         Se ve solo por debajo de 768px:
+           d-md-none = se oculta desde tablet hacia arriba
+         Estilos en: css/movil.css
+         ################################################################################ -->
+    <div id="version-movil" class="d-md-none">
+
+        <header id="movil-encabezado">
+
+        </header>
+
+        <main>
+            <nav id="movil-categorias">
+
+            </nav>
+
+            <section id="movil-destacado">
+
+            </section>
+
+
+            <section id="movil-categoria-1">
+
+            </section>
+
+            <section id="movil-categoria-2">
+
+            </section>
+
+            <section id="movil-categoria-3">
+
+            </section>
+        </main>
+
+        <nav id="movil-barra-inferior" class="fixed-bottom">
+
         </nav>
-        <img class="profile" src="img_profiles/profile1.png" width="50" alt="Profile image">
-    </header>
 
-    <main>
-        <!--Contenido-->
-        <section class="contenido">
+    </div>
 
-        </section>
-    </main>
 
-    <!--SCRIPT BOOTSTRAP-->
+    <!-- SCRIPT BOOTSTRAP: siempre al final del body, para que funcionen los carruseles.
+         No lo muevan ni lo borren. -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu"
         crossorigin="anonymous"></script>
-
-    <!--Pie-->
-    <footer class="pie">
-
-    </footer>
 </body>
 
 </html>
