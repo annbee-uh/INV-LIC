@@ -1,7 +1,10 @@
 *{
-    font-family: Helvetica;
+    font-family: arial;
 }
 
+body{
+    background-color: black;
+}
 .encabezado{
     background-color: black;
     align-items: center;
@@ -9,9 +12,13 @@
     padding-right: 10px;
 }
 
+
+
 .encabezado nav{
     flex: 1;
 }
+
+
 
 .encabezado img{
     align-items: flex-end;
