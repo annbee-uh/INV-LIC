@@ -1,36 +1,4 @@
-/* ==========================================================
-   PERSONA 1: VERSIÓN PC / TABLET (peliculas.html)
-   Todo lo que escribas aquí empieza con #version-pc
-   para que NO afecte la versión de celular.
-   ========================================================== */
 
-/* ===== ENCABEZADO PC =====
-   (Los estilos de .encabezado ya están en stylen.css) */
-
-
-/* ===== BANNER PRINCIPAL PC ===== */
-#version-pc #pc-banner {
-
-}
-
-
-/* ===== FILAS DE PELÍCULAS PC ===== */
-#version-pc h2 {
-
-}
-
-#version-pc .carousel img {
-
-}
-
-
-/* ===== PIE DE PÁGINA PC ===== */
-#version-pc .pie {
-
-}
-
-
-/* ===== AJUSTES SOLO PARA PC GRANDE (desde 992px, lg) ===== */
 @media screen and (min-width: 992px) {
 
 }

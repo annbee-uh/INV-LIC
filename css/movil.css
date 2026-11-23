@@ -1,36 +1,23 @@
-/* ==========================================================
-   PERSONA 2: VERSIÓN CELULAR (peliculas.html)
-   Todo lo que escribas aquí empieza con #version-movil
-   para que NO afecte la versión de PC / tablet.
-   ========================================================== */
-
-/* Espacio al final para que la barra inferior fija
-   no tape las últimas películas. Ajusten el valor
-   a la altura real de la barra. */
 #version-movil {
     padding-bottom: 80px;
 }
 
 
-/* ===== ENCABEZADO CELULAR ===== */
 #version-movil #movil-encabezado {
 
 }
 
 
-/* ===== BOTONES DE CATEGORÍA ===== */
 #version-movil #movil-categorias {
 
 }
 
 
-/* ===== PÓSTER DESTACADO ===== */
 #version-movil #movil-destacado {
 
 }
 
 
-/* ===== FILAS DE PELÍCULAS CELULAR ===== */
 #version-movil h2 {
 
 }
@@ -40,7 +27,6 @@
 }
 
 
-/* ===== BARRA DE NAVEGACIÓN INFERIOR ===== */
 #version-movil #movil-barra-inferior {
 
 }
