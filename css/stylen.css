@@ -1,0 +1,17 @@
+*{
+    font-family: Helvetica;
+}
+
+.encabezado{
+    display: flex;
+    padding: 70%;
+    align-items: flex-end;
+}
+
+.logo{
+    flex: 1;
+}
+
+.profile{
+    flex: 1;
+}
