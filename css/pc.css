@@ -60,10 +60,13 @@ cursor: pointer;
 
 /*BANNER*/
 #pc-banner img{
-height: 100%;
-display: block;
+height: auto;
+display:block;
 max-width: 100%;
 border-radius: 10px;
+margin:0 auto;
+width:fit-content;
+cursor: pointer;
 }
 
 
