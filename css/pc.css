@@ -32,7 +32,6 @@
 .encabezado nav a{
     text-decoration: none;
     color: white;
-
 }
 
 .logo{
@@ -137,3 +136,21 @@
     color: white;
     font-size: 26px;
 }
+
+
+
+/*FOOTER*/
+.pie{
+    display: flex;
+    flex: 2;
+    color: rgb(91, 94, 96);
+    gap:20px;
+}
+.pie ul{
+    list-style-type: none;
+    display: flex;
+    padddin: 19px;
+    gap: 20px;
+    font-style: italic;
+}
+
