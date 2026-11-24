@@ -48,6 +48,30 @@
     margin-bottom: 20px;
 }
 
+/*TENDENCIAS*/
+.fila-tendencias{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.fila-tendencias img{
+    margin-bottom: 5px;
+    cursor:pointer;
+}
+
+/*ANIMADO-AVENTURA*/
+.fila-animaven{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.fila-animaven{
+        margin-bottom: 5px;
+    cursor:pointer;
+}
+
+/*POSTERS*/
 .poster{
     width: 100%;
     aspect-ratio: 2/3;
@@ -55,6 +79,9 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+
+
 
 .poster {
     transition: transform 0.3s;
@@ -73,8 +100,24 @@
     margin: 16px 0 0 0;
     background: none;
 }
+
+#carrusel-pc-2 .carousel-indicators{
+    position: static;
+    margin: 16px 0 0 0;
+    background: none;
+}
 /*ANIMACION-fin*/
 
+
+
+/*CARRUSEL 1*/
+#carrusel-pc-1 h3{
+    color: white;
+    font-size: 26px;
+}
+
+
+/*AMBOS CARRUSELES*/
 .carrusel-pc .carousel-control-prev,
 .carrusel-pc .carousel-control-next{
     width: 48px;
@@ -88,17 +131,9 @@
     right: -48px;
 }
 
-#carrusel-pc-1 h3{
+
+/*CARRUSEL 2*/
+#carrusel-pc-2 h3{
     color: white;
     font-size: 26px;
-}
-
-
-.fila-tendencias{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-.fila-tendencias img{
-    margin-bottom: 5px;
 }
