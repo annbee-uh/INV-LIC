@@ -10,10 +10,12 @@
 }
 
 .encabezado{
+    position: sticky;
+    z-index: 10000;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .encabezado nav{
     flex:1;
@@ -37,6 +39,14 @@
 .logo{
     width: 155px
 }
+.buscar{
+width: 40px;
+height: 40px;
+display: flex;
+align-items: flex-end;
+margin-bottom: 20px;
+cursor: pointer;
+}
 
 .profile{
     width: 40px;
@@ -46,6 +56,17 @@
     margin-right: 40px;
     margin-bottom: 20px;
 }
+
+
+/*BANNER*/
+#pc-banner img{
+height: 100%;
+display: block;
+max-width: 100%;
+border-radius: 10px;
+}
+
+
 
 /*TENDENCIAS*/
 .fila-tendencias{
@@ -66,7 +87,7 @@
 }
 
 .fila-animaven{
-        margin-bottom: 5px;
+    margin-bottom: 5px;
     cursor:pointer;
 }
 
