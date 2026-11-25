@@ -3,30 +3,80 @@
 }
 
 
-#version-movil #movil-encabezado {
-
+.Titulo-movil {
+    color: white;
+    margin-top: 25px;
 }
 
-
-#version-movil #movil-categorias {
-
+#logopequeño {
+    margin-left: 15px;
+    margin-top: 15px;
 }
 
-
-#version-movil #movil-destacado {
-
+#version-movil #movil-destacado .card {
+    border-radius: 12px;
+    overflow: hidden;
 }
 
-
-#version-movil h2 {
-
+#version-movil .etiquetas {
+    color: white;
+    font-size: 0.9em;
 }
 
-#version-movil .carousel img {
-
+.btn-transparente {
+    background-color: rgba(255, 255, 255, 0.3);
+    color:white;
+    border: none;
+    
 }
 
+#movil-barra-inferior{
+    background-color: rgba(40, 40, 40, 0.95);
+    border-radius: 35px;
+    margin: 0px 10px 10px 10px;
+    padding: 8px 0px;
+}
 
-#version-movil #movil-barra-inferior {
+#version-movil .barra img{
+    display: block;
+    margin: 0px auto 4px auto;
+}
 
+#version-movil .barra span {
+    color: white;
+    font-size: 0.75em;
+}
+
+#version-movil .barra .avatar {
+    border-radius: 20%;
+}
+
+#version-movil .categoria {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    padding: 6px 14px;
+    color: white;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+#version-movil .fila-deslizable {
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+#version-movil .fila-deslizable::-webkit-scrollbar {
+    display: none;
+}
+#version-movil .titulo-fila {
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#version-movil .poster {
+    width: 110px;
+    border-radius: 6px;
 }
