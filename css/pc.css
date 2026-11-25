@@ -59,14 +59,32 @@ cursor: pointer;
 
 
 /*BANNER*/
-#pc-banner img{
+#pc-banner > img{
 height: auto;
 display:block;
 max-width: 100%;
 border-radius: 10px;
 margin:0 auto;
 width:fit-content;
-cursor: pointer;
+}
+
+
+#pc-banner{
+    position: relative;
+}
+
+.botones-banner button img{
+    width: 30px;
+    height: auto;
+}
+.botones-banner{
+    position: absolute;
+    display: flex;
+    flex: 3;
+    gap: 28px;
+    left: 3.3%;
+    bottom: 37%;
+    width: 60%;
 }
 
 

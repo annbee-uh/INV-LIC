@@ -40,13 +40,23 @@
                     </ul>
                 </nav>
                 <img class="buscar" src="img/buscar.png" alt="Lupa">
-                <img class="profile" src="img_profiles/profile1.png" width="50" alt="Profile image">
+                <a href="SeleccionDeUsuario.html" class="text-decoration-none">
+                    <img class="profile" src="img_profiles/profile1.png" width="50" class="avatar" alt="Profile image">
+                </a>
             </header>
 
 
-
             <section id="pc-banner">
-                <img src="img/Frame 2.png" alt="">
+                <img src="img/Frame 2.png" alt="Imagen Banner">
+                <div class="botones-banner">
+                    <button type="button" class="btn btn-light w-100 mb-2">
+                        <img src="img/reproducir.png" width="22" alt=""> <strong>Reproducir</strong>
+                    </button>
+
+                    <button type="button" class="btn btn-transparente w-100 h-25">
+                        <img src="img/mi-lista.png" width="22" alt=""><strong>Mi lista</strong>
+                    </button>
+                </div>
             </section>
 
 
@@ -201,30 +211,30 @@
         <!-- ############################ FIN VERSIÓN PC / TABLET ############################ -->
 
 
-    <div id="version-movil" class="d-md-none">
+        <div id="version-movil" class="d-md-none">
 
-        <header id="movil-encabezado">
-            
-            <div class="container-fluid py-2">
-                <div class="row align-items-center g-2">
-                    <div class="col-auto">
-                        <img src="img/logo(N).png" alt="Logo de Netflix" id="logopequeño" width="40">
+            <header id="movil-encabezado">
+
+                <div class="container-fluid py-2">
+                    <div class="row align-items-center g-2">
+                        <div class="col-auto">
+                            <img src="img/logo(N).png" alt="Logo de Netflix" id="logopequeño" width="40">
+                        </div>
+
+                        <div class="col">
+                            <h1 class="Titulo-movil">Inicio</h1>
+                        </div>
+
+                        <div class="col-auto">
+                            <img src="img/descarga.png" alt="Logo de Descarga" width="36">
+                            <img src="img/notificaciones.png" alt="Logo Notificaciones" width="38">
+                        </div>
+
+
                     </div>
-
-                    <div class="col">
-                        <h1 class="Titulo-movil">Inicio</h1>
-                    </div>
-
-                    <div class="col-auto">
-                        <img src="img/descarga.png" alt="Logo de Descarga" width="36">
-                        <img src="img/notificaciones.png" alt="Logo Notificaciones" width="38">
-                    </div>
-
-
                 </div>
-            </div>
-        </header>
-           <nav id="movil-categorias" class="container-fluid px-4 my-3">
+            </header>
+            <nav id="movil-categorias" class="container-fluid px-4 my-3">
                 <div class="row g-2 flex-nowrap fila-deslizable">
                     <div class="col-auto"><a href="#" class="categoria">Series</a></div>
                     <div class="col-auto"><a href="#" class="categoria">Películas</a></div>
@@ -234,35 +244,35 @@
                     <div class="col-auto"><a href="#" class="categoria">Categoria</a></div>
                 </div>
             </nav>
-        <section id="movil-destacado">
-            <div class="container-fluid px-4">
-                <div class= "card bg-dark border-secondary">
-                    <img src="img/TopGun.jpg" class="card-img" alt="Panel Top Gun">
-                  
-                    <div class="card-img-overlay d-flex flex-column justify-content-end">
-                        <p class="text-center etiquetas">Película · Acción · Emocionante</p>
-                        <button type="button" class="btn btn-light w-100 mb-2">
-                            <img src="img/reproducir.png" width="22" alt=""> <strong>Reproducir</strong>
-                        </button>
-                        
-                        <button type="button" class="btn btn-transparente w-100">
-                            <img src="img/mi-lista.png" width="22" alt=""><strong>Mi lista</strong></button>
+            <section id="movil-destacado">
+                <div class="container-fluid px-4">
+                    <div class="card bg-dark border-secondary">
+                        <img src="img/TopGun.jpg" class="card-img" alt="Panel Top Gun">
+
+                        <div class="card-img-overlay d-flex flex-column justify-content-end">
+                            <p class="text-center etiquetas">Película · Acción · Emocionante</p>
+                            <button type="button" class="btn btn-light w-100 mb-2">
+                                <img src="img/reproducir.png" width="22" alt=""> <strong>Reproducir</strong>
+                            </button>
+
+                            <button type="button" class="btn btn-transparente w-100">
+                                <img src="img/mi-lista.png" width="22" alt=""><strong>Mi lista</strong></button>
+
+                        </div>
 
                     </div>
-                    
+
                 </div>
-                
-            </div>
 
-            
-            
-        </section>
 
-        <nav id="movil-barra-inferior" class="fixed-bottom">
+
+            </section>
+
+            <nav id="movil-barra-inferior" class="fixed-bottom">
                 <div class="barra">
                     <div class="row g-0 text-center">
                         <div class="col">
-                            <a href="peliculas.html" class="text-decoration-none" >
+                            <a href="peliculas.html" class="text-decoration-none">
                                 <img src="img/inicio.png" width="26" alt="">
                                 <span>Inicio</span>
                             </a>
@@ -271,7 +281,7 @@
                         <div class="col">
                             <a href="#" class="text-decoration-none">
                                 <img src="img/clips.png" width="26" alt="">
-                                 <span>Clips</span>
+                                <span>Clips</span>
                             </a>
                         </div>
 
@@ -315,20 +325,20 @@
                     <div class="col-auto">
                         <img src="img/The Mentalist (2008).jpg" class="poster" alt="Top Gun">
                     </div>
-        
+
                 </div>
             </section>
-            
 
-         
 
-    </div>
 
-    <!-- SCRIPT BOOTSTRAP: siempre al final del body, para que funcionen los carruseles.
+
+        </div>
+
+        <!-- SCRIPT BOOTSTRAP: siempre al final del body, para que funcionen los carruseles.
          No lo muevan ni lo borren. -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
